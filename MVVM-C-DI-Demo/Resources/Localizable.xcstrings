@@ -1,0 +1,200 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "button.ok" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Details" : {
+
+    },
+    "error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помилка"
+          }
+        }
+      }
+    },
+    "error.failed_decode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to decode the response: %lld."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вдалося декодувати відповідь: %lld."
+          }
+        }
+      }
+    },
+    "error.http_status" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HTTP Error: Received status code %lld."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помилка HTTP: Отримано код стану %lld."
+          }
+        }
+      }
+    },
+    "error.invalid_response" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid response from the server."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неправильна відповідь від сервера."
+          }
+        }
+      }
+    },
+    "error.no_internet" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No internet connection. Please check your connection."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає підключення до Інтернету. Перевірте підключення."
+          }
+        }
+      }
+    },
+    "error.server_code" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server Error:  %lld (Code: %lld)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Помилка сервера: %lld (Код: %lld)"
+          }
+        }
+      }
+    },
+    "error.timeout" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The request timed out. Please try again later."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Час очікування запиту минув. Спробуйте пізніше."
+          }
+        }
+      }
+    },
+    "error.unknown" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown error occurred: %lld."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сталася невідома помилка: %lld."
+          }
+        }
+      }
+    },
+    "error.url" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL Error: %lld."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL Помилка: %lld."
+          }
+        }
+      }
+    },
+    "Home" : {
+
+    },
+    "ok" : {
+
+    },
+    "Onboarding" : {
+
+    },
+    "Present SubScreen2View" : {
+
+    },
+    "Profile" : {
+
+    },
+    "Push SubScreen1View" : {
+
+    },
+    "SKIP" : {
+
+    }
+  },
+  "version" : "1.0"
+}
