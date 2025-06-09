@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3038902DF7385900B6286C /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 1B30388F2DF7385900B6286C /* Swinject */; };
 		1B6824412DB1968A005EA43E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6824402DB1968A005EA43E /* Coordinator.swift */; };
 		1B6824432DB196BF005EA43E /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6824422DB196BF005EA43E /* Steps.swift */; };
 		1B6824452DB2AB56005EA43E /* NavigationSetupModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6824442DB2AB56005EA43E /* NavigationSetupModifier.swift */; };
@@ -35,8 +36,6 @@
 		1B72A8772DA84435000BC932 /* MVVM-C-DI-Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B72A8762DA84435000BC932 /* MVVM-C-DI-Demo.swift */; };
 		1B72A8792DA84435000BC932 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1B72A8782DA84435000BC932 /* Localizable.xcstrings */; };
 		1BC48B262DA8871E001C1C52 /* DIResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC48B252DA8871E001C1C52 /* DIResolver.swift */; };
-		1BC48B292DA88746001C1C52 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 1BC48B282DA88746001C1C52 /* Swinject */; };
-		1BC48B2B2DA88746001C1C52 /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 1BC48B2A2DA88746001C1C52 /* Swinject-Dynamic */; };
 		1BC48B2D2DA88766001C1C52 /* ViewModelAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC48B2C2DA88766001C1C52 /* ViewModelAssembly.swift */; };
 		1BC48B2F2DA88782001C1C52 /* ServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC48B2E2DA88782001C1C52 /* ServiceAssembly.swift */; };
 		1BC48B322DA888D9001C1C52 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1BC48B312DA888D9001C1C52 /* SDWebImageSwiftUI */; };
@@ -117,8 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BC48B322DA888D9001C1C52 /* SDWebImageSwiftUI in Frameworks */,
-				1BC48B292DA88746001C1C52 /* Swinject in Frameworks */,
-				1BC48B2B2DA88746001C1C52 /* Swinject-Dynamic in Frameworks */,
+				1B3038902DF7385900B6286C /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,9 +379,8 @@
 			);
 			name = "TabNav-MVVM-C-DI-Demo";
 			packageProductDependencies = (
-				1BC48B282DA88746001C1C52 /* Swinject */,
-				1BC48B2A2DA88746001C1C52 /* Swinject-Dynamic */,
 				1BC48B312DA888D9001C1C52 /* SDWebImageSwiftUI */,
+				1B30388F2DF7385900B6286C /* Swinject */,
 			);
 			productName = Test;
 			productReference = 1B72A83E2DA84434000BC932 /* TabNav-MVVM-C-DI-Demo.app */;
@@ -414,8 +411,8 @@
 			);
 			mainGroup = 1B72A8352DA84434000BC932;
 			packageReferences = (
-				1BC48B272DA88746001C1C52 /* XCRemoteSwiftPackageReference "Swinject" */,
 				1BC48B302DA888D9001C1C52 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				1B30388E2DF7385900B6286C /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			productRefGroup = 1B72A83F2DA84434000BC932 /* Products */;
 			projectDirPath = "";
@@ -685,7 +682,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1BC48B272DA88746001C1C52 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+		1B30388E2DF7385900B6286C /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject.git";
 			requirement = {
@@ -704,15 +701,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1BC48B282DA88746001C1C52 /* Swinject */ = {
+		1B30388F2DF7385900B6286C /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1BC48B272DA88746001C1C52 /* XCRemoteSwiftPackageReference "Swinject" */;
+			package = 1B30388E2DF7385900B6286C /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
-		};
-		1BC48B2A2DA88746001C1C52 /* Swinject-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1BC48B272DA88746001C1C52 /* XCRemoteSwiftPackageReference "Swinject" */;
-			productName = "Swinject-Dynamic";
 		};
 		1BC48B312DA888D9001C1C52 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
